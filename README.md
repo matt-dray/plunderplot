@@ -23,11 +23,11 @@ Why not `plunder()` the coordinates, matey?
 
 ``` r
 library(plunderplot)
-treasure <- plunder("image.png")
+treasure <- plunder("image.png", labels = TRUE)
 ```
 
 <div class="figure">
-<img src="man/figures/plot.png" alt="Chart titled 'Treasure locations on Rectangle Island'. It's a plot with x limits of 0 to 100 and y limits of 0 to 50. There are concentric rectangles that look like an island in the sea. There are three red crosses on the island." width="75%"/>
+<img src="man/figures/plot.png" alt="Chart titled 'Treasure locations on Rectangle Island'. It's a plot with x limits of 0 to 100 and y limits of 0 to 50. There are concentric rectangles that look like an island in the sea. There are three red crosses on the island." width="100%"/>
 </div>
 
 ```
@@ -39,10 +39,10 @@ Type value at x axis min: 0
 Type value at x axis max: 100
 Type value at y axis min: 0
 Type value at y axis max: 50
-Select points on the chart, press ESC when finished
-Add a label for point 1: west
-Add a label for point 2: centre
-Add a label for point 3: east
+Click points on the chart, press ESC when finished
+Type a label for point 1: west
+Type a label for point 2: centre
+Type a label for point 3: east
 Done
 ```
 

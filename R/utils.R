@@ -81,7 +81,7 @@
   y_diff_val   <- y_value_max - y_value_min
   y_multiplier <- y_diff_val / y_coord_diff
 
-  message("Select points on the chart, press ESC when finished")
+  message("Click points on the chart, press ESC when finished")
   p_coords <- graphics::locator()
 
   if (is.null(p_coords)) {
@@ -93,7 +93,7 @@
     p_labels <- vector(mode = "character", length = length(p_coords$x))
 
     for (p_num in seq(length(p_coords$x))) {
-      p_label <- readline(paste0("Add a label for point ", p_num, ": "))
+      p_label <- readline(paste0("Type a label for point ", p_num, ": "))
       p_labels[p_num] <- p_label
     }
 

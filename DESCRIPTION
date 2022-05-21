@@ -1,0 +1,14 @@
+Package: plunderplot
+Title: Plunder Points From Images Of Charts
+Version: 0.0.0.9000
+Authors@R: person("Matt", "Dray", , "mwdray@gmail.com", role = c("aut", "cre"))
+Description: Interactively extract x and y point values from a PNG or JPEG image
+    of a chart. Powered by the locator function.
+URL: https://www.github.com/matt-dray/plotplunder
+BugReports: https://www.github.com/matt-dray/plotplunder/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    png

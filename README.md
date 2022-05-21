@@ -1,5 +1,5 @@
 
-# plotplunder
+# plunderplot
 
 <!-- badges: start -->
 <!-- badges: end -->

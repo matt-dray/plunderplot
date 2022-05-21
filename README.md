@@ -40,9 +40,9 @@ Type value at x axis max: 100
 Type value at y axis min: 0
 Type value at y axis max: 50
 Select points on the chart, press ESC when finished
-Add a label for point 1 : west
-Add a label for point 2 : centre
-Add a label for point 3 : east
+Add a label for point 1: west
+Add a label for point 2: centre
+Add a label for point 3: east
 Done
 ```
 

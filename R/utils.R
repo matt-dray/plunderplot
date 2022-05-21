@@ -93,7 +93,7 @@
     p_labels <- vector(mode = "character", length = length(p_coords$x))
 
     for (p_num in seq(length(p_coords$x))) {
-      p_label <- readline(paste("Add a label for point", p_num, ": "))
+      p_label <- readline(paste0("Add a label for point ", p_num, ": "))
       p_labels[p_num] <- p_label
     }
 
